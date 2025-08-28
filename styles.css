@@ -1,0 +1,51 @@
+body {
+  background-image: url("images/Cosmere.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+img {
+  display: block;
+  margin: auto;
+  padding: 5%;
+}
+h2.title {
+  text-align: center;
+  color: goldenrod;
+  font-size: xx-large;
+  font-weight: bold;
+}
+h1.name {
+  text-align: center;
+  color: goldenrod;
+  font-size: x-large;
+}
+
+
+p.text-block {
+  background-color: rgba(12, 100, 216, 0.7);
+  padding: 1%;
+  width: 75%;
+  margin: 20px auto;
+  border-radius: 10px;
+  text-align: justify;
+  color: white;
+  font-size: x-large;
+  line-height: 1.6;
+}
+
+a:link {
+  color: goldenrod;
+}
+
+a:visited {
+  color: gold;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+a:active {
+  color: lightskyblue;
+}
