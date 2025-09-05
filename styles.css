@@ -2,27 +2,49 @@ body {
   background-image: url("images/Cosmere.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
 }
-img {
+
+.title img {
   display: block;
-  margin: auto;
+  margin: 10px auto;
   padding: 5%;
+  width: 25%;
 }
-h2.title {
+
+.cover_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.cover_container a {
+  display: block;
+  flex: 0 1 240px;
+  max-width: 300px;
+  width: 25vw;
+}
+
+.cover_container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.title {
   text-align: center;
   color: goldenrod;
-  font-size: xx-large;
+  font-size: 3rem;
   font-weight: bold;
 }
-h1.name {
+.name {
   text-align: center;
   color: goldenrod;
-  font-size: x-large;
+  font-size: 2rem;
 }
 
-
-p.text-block {
+.text-block {
   background-color: rgba(12, 100, 216, 0.7);
   padding: 1%;
   width: 75%;
@@ -34,18 +56,18 @@ p.text-block {
   line-height: 1.6;
 }
 
-a:link {
+.name a:link {
   color: goldenrod;
 }
 
-a:visited {
+.name a:visited {
   color: gold;
 }
 
-a:hover {
+.name a:hover {
   color: lightblue;
 }
 
-a:active {
+.brando a:active {
   color: lightskyblue;
 }
